@@ -1,11 +1,11 @@
 ---
 name: document-management
 description: Manage documents across Google Docs, Drive, Notion, and OneDrive/SharePoint — create, search, edit, export, comment, and share. Use when creating documents, searching files, editing content, sharing with teams, or exporting to PDF/DOCX.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-document server connected.
 allowed-tools: [google_list_docs, google_search_docs, google_get_doc, google_get_text, google_create_doc, google_insert_text, google_replace_text, google_export_doc, google_list_comments, google_add_comment, google_share_doc, google_delete_doc, notion_search, notion_list_pages, notion_get_page]
-tags: [communication, documents, collaboration, google-docs, notion]
 metadata:
+  category: communication
   author: Zavora AI
   mcp-server: mcp-document
 ---
